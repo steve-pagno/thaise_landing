@@ -61,7 +61,6 @@ header {
 }
 
 /* ================= HERO SECTION ================= */
-/* INSIRA A IMAGEM DE FUNDO DO HERO AQUI NO BACKGROUND-IMAGE */
 .hero {
     position: relative;
     height: 80vh;
@@ -71,8 +70,6 @@ header {
     background-position: right center;
     background-size: cover;
     background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
     display: flex;
     align-items: center;
     padding: 0 5%;
