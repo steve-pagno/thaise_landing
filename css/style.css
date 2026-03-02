@@ -68,7 +68,9 @@ header {
     min-height: 500px;
     background-image: linear-gradient(to right, rgba(0, 34, 68, 0.9) 0%, rgba(0, 34, 68, 0.4) 50%, rgba(0, 0, 0, 0) 100%),
         url('../img/4.png');
-    /* <--- CAMPO DE IMAGEM */
+    background-position: right center;
+    background-size: cover;
+    background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     display: flex;
@@ -333,6 +335,11 @@ header {
         flex-direction: column;
         align-items: center;
         gap: 20px;
+    }
+
+    .badge {
+        width: 250px;
+        height: auto;
     }
 
     header {
